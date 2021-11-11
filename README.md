@@ -38,4 +38,4 @@ Here is a sample of data received, formatted as JSON :
 
 ```
 
-It is also possible to get the raw data of the EEG signal.
+It is also possible to get the raw data of the EEG signal. Detailed documentation of ThinkGear data values is available [here](https://cdn.instructables.com/ORIG/F16/FZ5D/I8SLTELN/F16FZ5DI8SLTELN.pdf).
