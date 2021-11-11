@@ -16,7 +16,7 @@ Troubleshooting of the headset can be done with the app [BrainWave Visualizer](h
 To do so, just turn on the Force Trainer and bluetooth on your computer/smartphone. Then, pair the two together. The led of the Force Trainer should turn blue. 
 
 I provided a minimal example of a node.js app receiving EEG data from the Force Trainer II.
-Note that it is important to transmit a appkey generated using an SHA-1 in order to handshake with the device, otherwise communication won't be allowed.
+Note that it is important to transmit an appkey generated using an SHA-1 in order to handshake with the device, otherwise communication won't be allowed.
 
 Here is a sample of data received, formatted as JSON : 
 ```javascript
