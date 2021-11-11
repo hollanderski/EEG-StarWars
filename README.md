@@ -4,7 +4,7 @@ basic example of socket communication with the Force Trainer II to be used as an
 The Force Trainer II is a Star Wars toy used to move an hologram with the mind. This toy relies on the TGAM chip, NeuroSky's primary brainwave sensor which is used in entry-level EEG headband. 
 Contrary to other EEG headbands, the Force Trainer is inexpensive (I bought one for ~20$ on Ebay). This makes this device one of the most affordable EEG for entertainment purposes.
 
-For this projet, I took inspiration from [this tutorial hacking the the Force Trainer I with an Arduino](https://www.instructables.com/How-to-hack-EEG-toys-with-arduino/).
+For this projet, I took inspiration from [this tutorial hacking the Force Trainer I with an Arduino](https://www.instructables.com/How-to-hack-EEG-toys-with-arduino/).
 At first I wanted to reproduce this tutorial by wiring the GND and T pin to an Arduino, but I opted for socket communication with node.js instead of serial RX/TX of Arduino.
 The Force Trainer II includes a Bluetooth module, which makes it easier to communicate with.
 
